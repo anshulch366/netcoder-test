@@ -1,0 +1,181 @@
+/* Navbar */
+.navbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+    box-sizing: border-box;
+    gap: 280px;
+}
+
+/* Logo */
+.logo {
+    flex-shrink: 0;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #111111;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 38px;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.search-box input {
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}
+
+.search-box button {
+    width: 45px;
+    height: 100%;
+    border: none;
+    background-color: #087df5;
+    color: white;
+    cursor: pointer;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: auto;
+}
+
+.nav-links a {
+    position: relative;
+    text-decoration: none;
+    color: #222222;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 26px 0;
+}
+
+/* Hover */
+.nav-links a:hover {
+    color: #087df5;
+}
+
+ /* Navbar Icons */
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-icons button {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.nav-icons button:hover {
+    transform: scale(1.1);
+}
+
+/* hero section  */
+
+.hero {
+    width: 100%;
+    height: 600px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+    padding: 110px 300px;
+
+    box-sizing: border-box;
+   
+    background-image: linear-gradient(to right, rgba(10, 10, 10, 0.404), rgba(0, 0, 0, 0.404)), url("./images/hero-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 35px;
+}
+
+.button-hero{
+    padding: 20px;
+    color: white;
+    background-color: #044381;
+    border: none;
+    border-radius: 25px;
+}
+
+.p1-hero{
+    font-size: 20px;
+    margin-bottom: -25px;
+}
+
+.heading-hero{
+    font-size: 25px;
+     margin-bottom: -10px;
+}
+
+
+
+.p2-hero{
+    font-size: 20px;
+}
+
+/* support cards  */
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+    padding: 20px 130px;
+}
+
+.feature-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eef6ff;
+    color: #087df5;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.feature h3 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.feature p {
+    margin: 5px 0 0;
+    font-size: 12px;
+    color: #777;
+}
