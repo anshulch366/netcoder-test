@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>MyStore</title>
+    <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/brands.min.css">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/fontawesome.min.css">
 
     <!-- CSS Link -->
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
@@ -18,13 +25,13 @@
 
         <!-- Logo -->
         <div class="logo">
-            <img src="./images/logo.svg" alt="" srcset="">
+            <img src="./images/new-logo.png" alt="" srcset="" width="150px">
         </div>
 
         <!-- Search Products -->
         <div class="search-box">
             <input type="text" placeholder="Search products">
-            <button>🔍</button>
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
 
         <!-- Navigation Links -->
@@ -38,9 +45,9 @@
 
          <!-- Icons -->
     <div class="nav-icons">
-        <button id="themeBtn">🌙</button>
-        <button>♡</button>
-        <button>🛒</button>
+        <button id="themeBtn"><i class="fa-solid fa-moon"></i></button>
+        <button><i class="fa-regular fa-heart"></i></button>
+        <button><i class="fa-solid fa-cart-arrow-down"></i></button>
     </div>
 
 
@@ -71,7 +78,7 @@
 <section class="features">
 
     <div class="feature">
-        <div class="feature-icon">🚚</div>
+        <div class="feature-icon"><i class="fa-regular fa-truck"></i></div>
         <div>
             <h3>Free Shipping</h3>
             <p>On orders over $50</p>
@@ -79,7 +86,7 @@
     </div>
 
     <div class="feature">
-        <div class="feature-icon">↻</div>
+        <div class="feature-icon"><i class="fa-solid fa-arrows-rotate"></i></div>
         <div>
             <h3>Easy Returns</h3>
             <p>30-day return policy</p>
@@ -87,7 +94,7 @@
     </div>
 
     <div class="feature">
-        <div class="feature-icon">🔒</div>
+        <div class="feature-icon"><i class="fa-solid fa-lock"></i></div>
         <div>
             <h3>Secure Payment</h3>
             <p>100% secure payment</p>
@@ -95,14 +102,104 @@
     </div>
 
     <div class="feature">
-        <div class="feature-icon">◉</div>
+        <div class="feature-icon"><i class="fa-solid fa-circle-dot"></i></div>
         <div>
             <h3>24/7 Support</h3>
             <p>Dedicated support</p>
         </div>
     </div>
 
+
 </section>
+
+    <!-- cards section -->
+<div class="ax">
+    <h1>All Products</h1>
+</div>
+
+<!-- cards -->
+ <div class="product-container">
+
+    <!-- Card 1 -->
+    <div class="product-card">
+        <span class="badge new">New</span>
+
+        <img src="./images/earbuds.png" alt="Wireless Earbuds">
+
+        <div class="product-info">
+            <h3>Wireless Earbuds</h3>
+
+            <div class="rating">
+                ★★★★★ <span>(128)</span>
+            </div>
+
+            <p class="price">$59.99</p>
+
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+
+    <!-- Card 2 -->
+    <div class="product-card">
+        <span class="badge discount">-20%</span>
+
+        <img src="./images/smart watch.png" alt="Smart Watch">
+
+        <div class="product-info">
+            <h3>Smart Watch Series 5</h3>
+
+            <div class="rating">
+                ★★★★★ <span>(96)</span>
+            </div>
+
+            <p class="price">$199.99</p>
+
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+
+    <!-- Card 3 -->
+    <div class="product-card">
+        <span class="badge new">New</span>
+
+        <img src="./images/jacket.png" alt="Denim Jacket">
+
+        <div class="product-info">
+            <h3>Denim Jacket</h3>
+
+            <div class="rating">
+                ★★★★★ <span>(75)</span>
+            </div>
+
+            <p class="price">$49.99</p>
+
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+
+    <!-- Card 4 -->
+    <div class="product-card">
+        <span class="badge discount">-15%</span>
+
+        <img src="./images/shoes.png" alt="Sports Shoes">
+
+        <div class="product-info">
+            <h3>Sports Shoes</h3>
+
+            <div class="rating">
+                ★★★★★ <span>(250)</span>
+            </div>
+
+            <p class="price">$84.99</p>
+
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+</div>
 </body>
 
 </html>

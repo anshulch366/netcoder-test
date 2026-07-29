@@ -8,13 +8,10 @@
     background-color: #ffffff;
     border-bottom: 1px solid #eeeeee;
     box-sizing: border-box;
-    gap: 280px;
+    gap: 250px;
 }
 
 /* Logo */
-.logo {
-    flex-shrink: 0;
-}
 
 .logo a {
     text-decoration: none;
@@ -56,7 +53,7 @@
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 35px;
     margin-left: auto;
 }
 
@@ -124,6 +121,13 @@
     border-radius: 25px;
 }
 
+.button-hero:hover{
+    background-color: white;
+    color: #044381;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 .p1-hero{
     font-size: 20px;
     margin-bottom: -25px;
@@ -178,4 +182,106 @@
     margin: 5px 0 0;
     font-size: 12px;
     color: #777;
+}
+
+/* cards */
+.ax {
+    display: inline-block;
+    padding: 20px 35px;
+    font-size: 10px;
+    margin-left: 140px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 45px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);}
+
+.ax h1 {
+    margin: 0;
+}
+
+.product-container {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+.product-card {
+    position: relative;
+    width: 25%;
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.new {
+    background-color: #22c55e;
+}
+
+.discount {
+    background-color: #ef4444;
+}
+
+.product-info {
+    padding: 10px;
+}
+
+.product-info h3 {
+    font-size: 14px;
+    margin: 0 0 8px;
+}
+
+.rating {
+    color: #fbbf24;
+    font-size: 13px;
+}
+
+.rating span {
+    color: #777;
+}
+
+.price {
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.product-info button {
+    width: 100%;
+    padding: 10px;
+    background-color: #087ff5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.product-info button:hover {
+    background-color: #0668c9;
+    transform: scale(1.02);
 }
