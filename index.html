@@ -15,6 +15,7 @@
 
     <!-- CSS Link -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 
 </head>
 
@@ -34,20 +35,29 @@
             <button><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
 
-        <!-- Navigation Links -->
-        <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">Shop</a>
-            <a href="#">Categories</a>
-            <a href="#">About Us</a>
-            <a href="#">Contact</a>
+
+        <div class="nav-right" id="menu">
+            <!-- Navigation Links -->
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Categories</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+            </div>
+
+
+            <!-- Icons -->
+            <div class="nav-icons">
+                <button id="themeBtn"><i class="fa-solid fa-moon"></i></button>
+                <button><i class="fa-regular fa-heart"></i></button>
+                <button><i class="fa-solid fa-cart-arrow-down"></i></button>
+            </div>
         </div>
 
-        <!-- Icons -->
-        <div class="nav-icons">
-            <button id="themeBtn"><i class="fa-solid fa-moon"></i></button>
-            <button><i class="fa-regular fa-heart"></i></button>
-            <button><i class="fa-solid fa-cart-arrow-down"></i></button>
+        <div class="nav-menu" onclick="show()">
+            <i class="fa-solid fa-bars" style="color: rgb(0, 0, 0);"></i>
+
         </div>
 
 
@@ -55,6 +65,7 @@
 
     <!-- Hero Section -->
     <section class="hero">
+        <div class="hero-sub">
         <div class="p1-hero">
             <p> Best Deals Online</p>
         </div>
@@ -69,6 +80,8 @@
 
         <div>
             <button class="button-hero">Shop Now</button>
+        </div>
+
         </div>
 
 
@@ -112,7 +125,7 @@
 
     </section>
 
-    <!-- cards section -->
+    <!-- All products -->
     <div class="ax">
         <h1>All Products</h1>
     </div>
@@ -200,6 +213,30 @@
         </div>
 
     </div>
+
+
+  <div class="gallery">
+    <div class="card a">1</div>
+    <div class="card b">2</div>
+    <div class="card c">3</div>
+    <div class="card d">4</div>
+    <div class="card e">5</div>
+    <div class="card f">6</div>
+  </div>
 </body>
+
+
+<script>
+
+    function show(){
+        let a=document.getElementById("menu")
+        if(a.style.display=="block"){
+            a.style.display="none";
+        }else{
+            a.style.display="block"
+        }
+    }
+
+</script>
 
 </html>

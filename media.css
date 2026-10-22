@@ -1,0 +1,41 @@
+@media (max-width:1350px){
+    .nav-right{
+        display: none;
+        background-color: white;
+        width: 300px;
+        height:300px;
+        position: fixed;
+        top: 50px;
+        right: 10px;
+    }
+    .nav-links{
+        width: 100%;
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        gap: 10px;
+     
+    }
+
+    .nav-icons{
+        display: none;
+    }
+
+    .nav-menu{
+        display: block;
+    }
+}
+
+@media (max-width : 410px){
+    .heading-hero{
+        font-size: 20px;
+    }
+}
+
+@media (max-width : 800px){
+    .product-container{
+       grid-template-columns: repeat(2,1fr);
+        
+    }
+
+}
